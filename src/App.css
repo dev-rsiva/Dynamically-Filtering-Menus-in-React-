@@ -1,0 +1,67 @@
+
+#all{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+img{
+    width:200px;
+}
+
+h1{
+    margin:20px;
+}
+
+button{
+    margin:5px;
+    padding:0px 5px;
+}
+
+#menu{
+    background-color: rgb(80, 164, 236);
+    width:300px;
+    margin:15px;
+    padding:10px;
+}
+
+#menus{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* Manual Method
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+#eachitem{
+    background-color: rgb(196, 172, 39);
+    margin:20px;
+    padding:15px;
+    width:350px;
+}
+
+#wholemenu{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#menubtn{
+    display: flex;
+    flex-direction: row;
+} */
